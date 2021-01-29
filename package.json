@@ -1,6 +1,6 @@
 {
   "name": "ssm-aws-config",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A node.js library that pull AWS SSM parameter store configurations",
   "main": "./dist/index.js",
   "scripts": {
