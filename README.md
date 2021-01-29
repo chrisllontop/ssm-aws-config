@@ -1,4 +1,4 @@
-# aws-ssm-config
+# ssm-aws-config
 a `node.js` library for building configuration objects fetching AWS SSM Parameter Store.
 
 **Features**
