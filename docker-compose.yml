@@ -1,0 +1,12 @@
+version: '1s'
+services:
+  aws-ssm-config:
+    build:
+      context: .
+      dockerfile: ./test/Dockerfile
+    command: npm run coverage
+    environment:
+      NODE_ENV: test
+    volumes:
+     - .:/home/app/src
+     - /home/app/src/node_modules
